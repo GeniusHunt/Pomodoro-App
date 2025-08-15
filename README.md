@@ -104,14 +104,14 @@ http://localhost:3000
 ]
 ```
 
-#How It Works
+##**How It Works**
 
 1. The user starts the timer in the browser.
 2. After 25 minutes, the timer stops and sends a request to the backend.
 3. The backend stores the session in the SQLite database.
 4. The stored data can be retrieved using the `/sessions` endpoint.
 
-#Future Improvements
+##**Future Improvements**
 
 * Adjustable work/break durations.
 * Break timer functionality.
@@ -119,7 +119,7 @@ http://localhost:3000
 * User authentication to save sessions per user.
 * Dark/Light mode toggle.
 
-#License
+##**License**
 
 This project is open-source. You can modify and use it for personal or commercial purposes.
 
