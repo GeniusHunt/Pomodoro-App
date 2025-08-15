@@ -1,13 +1,7 @@
-Here’s a **beginner-friendly README** for your Pomodoro App project.
-
----
-
 # **Pomodoro App**
 
 A simple, minimalistic **Pomodoro Timer** built with **HTML, CSS, JavaScript** for the frontend, **Node.js (Express)** for the backend, and **SQLite** for the database.
 This app follows the Pomodoro Technique — a time-management method that breaks work into focused intervals (default 25 minutes), separated by short breaks.
-
----
 
 ## **Features**
 
@@ -17,7 +11,6 @@ This app follows the Pomodoro Technique — a time-management method that breaks
 * Simple API to retrieve past sessions.
 * Minimal and clean interface for distraction-free use.
 
----
 
 ## **Tech Stack**
 
@@ -33,8 +26,6 @@ This app follows the Pomodoro Technique — a time-management method that breaks
 * Express.js
 * SQLite (via `sqlite3` npm package)
 * CORS enabled for frontend-backend communication
-
----
 
 ## **Project Structure**
 
@@ -52,8 +43,6 @@ pomodoro-app/
 │
 └── package.json
 ```
-
----
 
 ## **Installation & Setup**
 
@@ -88,8 +77,6 @@ http://localhost:3000
 * Open `frontend/index.html` directly in your browser.
 * Ensure backend is running for session saving to work.
 
----
-
 ## **API Endpoints**
 
 | Method | Endpoint       | Description                  |
@@ -97,7 +84,6 @@ http://localhost:3000
 | POST   | `/add-session` | Save a completed Pomodoro    |
 | GET    | `/sessions`    | Retrieve all stored sessions |
 
----
 
 ## **Example API Usage**
 
