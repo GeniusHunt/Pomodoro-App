@@ -49,7 +49,7 @@ pomodoro-app/
 ### 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/pomodoro-app.git
+git clone (https://github.com/GeniusHunt/Pomodoro-App.git)
 cd pomodoro-app
 ```
 
